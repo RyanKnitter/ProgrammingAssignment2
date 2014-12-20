@@ -24,9 +24,9 @@ makeCacheMatrix <- function(x = matrix()) {
 }
 
 ## This function uses the list of functions created by
-## makeCacheMatrix and will to one of two things. It will
+## makeCacheMatrix and will do one of two things; It will
 ## either return the cached Inverse Matrix or it will
-## calculate the Invese Matrix is one doesn't exist in
+## calculate the Invese Matrix if one doesn't exist in
 ## cache. If it calculates the Inverse Matrix, it then
 ## caches it.
 
